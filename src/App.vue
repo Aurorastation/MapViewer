@@ -21,11 +21,10 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -33,25 +32,28 @@ export default {
 }
 
 body {
+  background: #1a1921;
+  color: white;
   margin: 0px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   // overflow: hidden;
 }
 
 #nav {
   padding: 5px;
   padding-top: 10px;
-  background: white;
   z-index: 10;
   right: 0;
   left: 0;
-
+  background: rgba(255,255,255,0.1) url('/header.png') repeat 50% 50%;
   a {
     font-weight: bold;
-    color: #2c3e50;
     margin: 0 0.5em;
+    color: white;
+    text-decoration: none;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: rgb(147, 145, 167);
     }
   }
 }
