@@ -40,6 +40,9 @@ export default {
   },
   computed: {
     maxBounds() {
+      if(this.mapObject.bounds){
+        return this.mapObject.bounds
+      }
       return this.bounds
     },
     mapObject() {
