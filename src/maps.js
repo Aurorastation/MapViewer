@@ -15,7 +15,7 @@ module.exports = {
     next: 'h3'
   },
   a3: {
-    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/ccv_horizon-3_deck_3-1.png',
+    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/sccv_horizon-3_deck_3-1.png',
     name: 'Deck 3 - Bridge',
     prev: 'h2'
   },
