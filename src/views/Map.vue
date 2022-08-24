@@ -46,7 +46,7 @@ export default {
       return maps[this.$route.params.z]
     },
     mapUrl() {
-      return this.publicPath + this.mapObject.file
+      return this.mapObject.file
     }
   },
   methods: {
@@ -94,7 +94,6 @@ export default {
       center: {lat: 0, lng: 0},
       crs: CRS.Simple,
       bounds: [[1, 1], [256, 256]],
-      publicPath: 'https://mapimages.build.aurorastation.org/Aurorastation/Aurora.3/master/',
       mlat: 0,
       mlng: 0,
       maxzoom: 8,

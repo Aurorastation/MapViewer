@@ -45,7 +45,7 @@ body {
   z-index: 10;
   right: 0;
   left: 0;
-  background: rgba(255,255,255,0.1) url('/header.png') repeat 50% 50%;
+  background: rgba(255,255,255,0.1) url('./header.png') repeat 50% 50%;
   a {
     font-weight: bold;
     margin: 0 0.5em;

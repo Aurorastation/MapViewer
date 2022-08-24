@@ -1,40 +1,22 @@
 module.exports = {
-  a1: {
-    file: 'aurora-1_centcomm-1.png',
+  cc: {
+    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/sccv_horizon-4_centcomm-1.png',
     name: 'Central Command'
   },
-  a2: {
-    file: 'aurora-2_under-station-1.png',
-    next: 'a3',
-    name: 'Under Station'
+  h1: {
+    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/sccv_horizon-1_deck_1-1.png',
+    next: 'h2',
+    name: 'Deck 1 - Hangar'
+  },
+  h2: {
+    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/sccv_horizon-2_deck_2-1.png',
+    name: 'Deck 2',
+    prev: 'h1',
+    next: 'h3'
   },
   a3: {
-    file: 'aurora-3_sublevel-1.png',
-    name: 'Sublevel',
-    next: 'a4',
-    prev: 'a2'
+    file: 'https://map.aurorastation.org/mapimages/Aurorastation/Aurora.3/master/ccv_horizon-3_deck_3-1.png',
+    name: 'Deck 3 - Bridge',
+    prev: 'h2'
   },
-  a4: {
-    file: 'aurora-4_mainlevel-1.png',
-    name: 'Main level',
-    next: 'a5',
-    prev: 'a3'
-  },
-  a5: {
-    file: 'aurora-5_interstitial-1.png',
-    name: 'Construction level',
-    next: 'a6',
-    prev: 'a4'
-  },
-  a6: {
-    file: 'aurora-6_surface-1.png',
-    name: 'Surface',
-    next: 'a7',
-    prev: 'a5'
-  },
-  a7: {
-    file: 'aurora-7_roof-1.png',
-    name: 'Roof',
-    prev: 'a6'
-  }
 }
