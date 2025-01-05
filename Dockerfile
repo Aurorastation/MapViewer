@@ -1,5 +1,6 @@
 # build environment
-FROM node:lts-alpine as build-stage
+FROM node:16.16-alpine as build-stage
+RUN apk add g++ make python3
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package*.json ./
